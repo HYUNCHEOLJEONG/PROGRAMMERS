@@ -21,5 +21,5 @@
 ```bash
 C++ Programmers/
 ├── 문제 이름.cpp         # 문제 해결 코드 (한글 파일명 유지)
-├── README.md            # 지금 보고 있는 파일일
+├── README.md            # 지금 보고 있는 파일들
 └── ...
