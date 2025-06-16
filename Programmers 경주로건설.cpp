@@ -35,6 +35,7 @@ int solution(vector<vector<int>> board) {
 
 	for (int i = 0; i < 4; i++) {
 		Point next = Point(0, 0).move(i); // 실제로 시발점에서 모든방향 이동
+		
 		int ny = next.y;
 		int nx = next.x;
 		if (ny >= 0 && ny < Y_MAX && nx >= 0 && nx < X_MAX && board[ny][nx] == 0) {
